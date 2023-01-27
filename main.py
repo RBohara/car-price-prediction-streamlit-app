@@ -3,7 +3,7 @@ from utils import predict_price, preprocess_data
 
 st.set_page_config(layout="wide")
 
-st.header("Calculate the price of car")
+st.title("Calculate the price of car")
 
 col1, empty_col, col2 = st.columns([1.5, 0.5, 1.5])
 
